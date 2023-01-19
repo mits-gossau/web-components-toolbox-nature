@@ -10,21 +10,21 @@
 /* custom nature fonts */
 @font-face {
   font-family: "TrendaBlack";
-  src: url("./src/fonts/Trenda-Black.otf") format("otf");
+  src: url("../fonts/Trenda-Black.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "TrendaBold";
-  src: url("./src/fonts/Trenda-Bold.otf") format("otf");
+  src: url("../fonts/Trenda-Bold.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "GlossAndBloom";
-  src: url("./src/fonts/gloss_and_bloom.ttf") format("ttf");
+  src: url("../fonts/gloss_and_bloom.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -32,11 +32,15 @@
 
 :root {
   --background-color: white;
+  --bg-padding-bottom: 0.2em;
+  --bg-padding-top: 0.5em;
   --color-active: var(--m-gray-600);
   --color-disabled: var(--m-gray-600);
   --color-hover: #F26178;
   --color-secondary: #82C073;
   --color-tertiary: #003B4C;
+  --details-default-summary-child-margin: 0.4em 0 0;
+  --details-default-summary-dropdown-icon-margin: 0;
   --font-family-bold: TrendaBold, HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: GlossAndBloom, sans-serif;
   --font-family: TrendaBlack, HelveticaNowText, Helvetica, Arial, sans-serif;
@@ -48,8 +52,9 @@
   --footer-default-invert-svg-color-custom: var(--background-color);
   --footer-default-invert-svg-color-hover-custom: var(--color-tertiary);
   --h-color: var(--color-tertiary);
+  --h-font-family: var(--font-family-secondary);
+  --h-padding: 0.3em;
   --h1-font-size: calc(1.5 * 1.75em);
-  --h6-font-family: var(--font-family-secondary);
   --h6-font-size: var(--h2-font-size, 1.5em);
   --header-default-a-logo-top-custom: calc(60.5px / 2 - 35px / 2);
   --header-default-a-logo-top-mobile-custom: 1.25em;
@@ -60,8 +65,11 @@
   --hr-border-width: 0 0 2px;
   --hr-secondary-border-bottom: 2px solid var(--color-secondary);
   --hr-secondary-opacity: 1;
+  --navigation-default-search-li-padding-custom: calc(0.25rem - 1px) 0 0.25rem var(--content-spacing-mobile);
   --navigation-default-section-margin-top-desktop: 0px;
   --picture-close-btn-background-color:var(--color-secondary);
   --search-input-width-big:100%;
+  --teaser-overlay-bg-padding-bottom: 0;
+  --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
 }
