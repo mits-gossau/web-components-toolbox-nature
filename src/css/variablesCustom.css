@@ -76,10 +76,10 @@
   --hr-border-width: 0 0 2px;
   --hr-secondary-border-bottom: 2px solid var(--color-secondary);
   --hr-secondary-opacity: 1;
-  --nature-align-items: stretch;
-  --nature-gap-custom: 0;
-  --nature-padding-mobile: calc(var(--content-spacing-mobile) * 2);
-  --nature-padding: calc(var(--content-spacing) * 2);
+  --nature-wrapper-align-items: stretch;
+  --nature-wrapper-gap-custom: 0;
+  --nature-wrapper-padding-mobile: calc(var(--content-spacing-mobile) * 2);
+  --nature-wrapper-padding: calc(var(--content-spacing) * 2);
   --navigation-default-search-li-padding-custom: calc(0.25rem - 1px) 0 0.25rem var(--content-spacing-mobile);
   --navigation-default-section-margin-top-desktop: 0px;
   --picture-close-btn-background-color:var(--color-secondary);
