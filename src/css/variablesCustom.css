@@ -53,6 +53,7 @@
   --font-family-bold: TrendaBold, HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: GlossAndBloom, sans-serif;
   --font-family: TrendaBlack, HelveticaNowText, Helvetica, Arial, sans-serif;
+  --footer-default-boarder-right: 0;
   --footer-default-h4-color: var(--background-color);
   --footer-default-invert-a-color-hover-custom: var(--color-tertiary);
   --footer-default-invert-color-hover-custom: var(--color-tertiary);
@@ -60,6 +61,11 @@
   --footer-default-invert-orange-background-color-custom: var(--color-tertiary);
   --footer-default-invert-svg-color-custom: var(--background-color);
   --footer-default-invert-svg-color-hover-custom: var(--color-tertiary);
+  --footer-default-margin: 0 auto;
+  --footer-default-padding-mobile: 0;
+  --footer-default-padding: 0 var(--content-spacing);
+  --footer-default-width-mobile: 100%;
+  --footer-default-width: var(--content-width, 55%);
   --h-color: var(--color-tertiary);
   --h-font-family: var(--font-family-secondary);
   --h-line-height: 1.5em;
