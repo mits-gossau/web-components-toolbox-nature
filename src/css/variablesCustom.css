@@ -95,6 +95,13 @@
   --nature-wrapper-gap-custom: 0;
   --nature-wrapper-padding-mobile: var(--content-spacing-mobile);
   --nature-wrapper-padding: calc(var(--content-spacing) * 2);
+  --navigation-alnatura-content-width-custom: var(--navigation-default-content-width-custom);
+  --navigation-alnatura-search-li-padding-custom: var(--navigation-default-search-li-padding-custom);
+  --navigation-alnatura-section-margin-top-desktop: var(--navigation-default-section-margin-top-desktop);
+  --navigation-alnatura-ul-li-div-background-left: var(--navigation-default-ul-li-div-background-left);
+  --navigation-alnatura-ul-li-div-background-width: var(--navigation-default-ul-li-div-background-width);
+  --navigation-alnatura-ul-li-width-mobile: var(--navigation-default-ul-li-width-mobile);
+  --navigation-alnatura-ul-li-width-search-mobile: var(--navigation-default-ul-li-width-search-mobile);
   --navigation-default-content-width-custom: calc(var(--content-width, 55%) - var(--content-spacing) * 2);
   --navigation-default-search-li-padding-custom: calc(0.25rem - 1px) 0 0.25rem var(--content-spacing-mobile);
   --navigation-default-section-margin-top-desktop: 0px;
