@@ -4,27 +4,45 @@
   * - if a component holds other components or nodes you can declare or remap classes eg. :host > h1 {--color: var(--h1-color, white);}
   * - if a component holds other components you should share the attribute namespace with its children
   */
-/* font tracking */
-@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=b2e5ea60-e0d9-11ec-b713-06e2001461d0");
 
-/* custom nature fonts */
-@font-face {
-  font-family: "TrendaBlack";
-  src: url("../fonts/Trenda-Black.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "TrendaBold";
-  src: url("../fonts/Trenda-Bold.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+/* font tracking for Trenda */
+@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=d9499930-398b-11ed-aaf7-06b70d83f6b0");
+
 @font-face {
   font-family: "GlossAndBloom";
-  src: url("../fonts/gloss_and_bloom.ttf") format("truetype");
+  src: url("https://cdn.migros.ch/ch.migros/static/fonts/GlossAndBloom/GlossAndBloom.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TrendaBlack";
+  src: url("https://cdn.migros.ch/ch.migros/static/fonts/Trenda/TrendaBlack_normal_normal.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TrendaBold";
+  src: url("https://cdn.migros.ch/ch.migros/static/fonts/Trenda/TrendaBold_normal_normal.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TrendaHeavy";
+  src: url("https://cdn.migros.ch/ch.migros/static/fonts/Trenda/TrendaHeavy_normal_normal.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TrendaLight";
+  src: url("https://cdn.migros.ch/ch.migros/static/fonts/Trenda/TrendaLight_normal_normal.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -109,8 +127,8 @@
   --navigation-default-ul-li-div-background-width: var(--content-width, 55%);
   --navigation-default-ul-li-width-mobile: calc(100% - var(--content-spacing-mobile));
   --navigation-default-ul-li-width-search-mobile: 100%;
-  --picture-close-btn-background-color:var(--color-secondary);
-  --search-input-width-big:100%;
+  --picture-close-btn-background-color: var(--color-secondary);
+  --search-input-width-big: 100%;
   --teaser-overlay-bg-padding-bottom: 0;
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
