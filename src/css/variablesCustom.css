@@ -102,15 +102,14 @@
   --header-default-margin-custom: 0 auto var(--content-spacing);
   --header-default-margin-mobile-custom: 0 auto var(--content-spacing-mobile);
   --header-default-padding-mobile: 0;
-  --header-default-padding: 0 calc(var(--content-spacing) * 2);
+  --header-default-padding: 0.9em 0;
   --header-default-width-mobile: 100%;
-  --header-default-width: calc(var(--content-width) - var(--content-spacing) * 4);
   --hr-border-bottom: 2px dotted var(--m-gray-600);
   --hr-border-width: 0 0 2px;
   --hr-secondary-border-bottom: 2px solid var(--color-secondary);
   --hr-secondary-opacity: 1;
   --logo-default-img-margin-mobile: 0;
-  --logo-default-img-margin: 0 0 0 calc(var(--content-spacing) * 2);
+  --logo-default-img-margin: 1.2em 0 0 0;
   --nature-wrapper-align-items: stretch;
   --nature-wrapper-gap-custom: 0;
   --nature-wrapper-padding-mobile: var(--content-spacing-mobile);
@@ -122,6 +121,7 @@
   --navigation-alnatura-ul-li-div-background-width: var(--navigation-default-ul-li-div-background-width);
   --navigation-alnatura-ul-li-width-mobile: var(--navigation-default-ul-li-width-mobile);
   --navigation-alnatura-ul-li-width-search-mobile: var(--navigation-default-ul-li-width-search-mobile);
+  --navigation-default-align-items:baseline;
   --navigation-default-content-width-custom: calc(var(--content-width, 55%) - var(--content-spacing) * 2);
   --navigation-default-search-li-padding-custom: calc(0.25rem - 1px) 0 0.25rem var(--content-spacing-mobile);
   --navigation-default-section-margin-top-desktop: 0px;
