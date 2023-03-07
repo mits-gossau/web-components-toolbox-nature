@@ -33,6 +33,14 @@
 }
 
 @font-face {
+  font-family: "TrendaSemiBold";
+  src: url("https: //cdn.migros.ch/ch.migros/static/fonts/Trenda/TrendaSemibold_normal_normal.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "TrendaHeavy";
   src: url("https://cdn.migros.ch/ch.migros/static/fonts/Trenda/TrendaHeavy_normal_normal.woff") format("woff");
   font-weight: normal;
@@ -70,7 +78,7 @@
   --emotion-default-width: var(--content-width);
   --font-family-bold: TrendaBold, HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: GlossAndBloom, sans-serif;
-  --font-family: TrendaLight, HelveticaNowText, Helvetica, Arial, sans-serif;
+  --font-family: TrendaSemiBold, HelveticaNowText, Helvetica, Arial, sans-serif;
   --footer-default-a-font-size:1.5em;
   --footer-default-a-text-decoration:none;
   --footer-default-boarder-right: 0;
@@ -140,4 +148,5 @@
   --teaser-overlay-bg-padding-bottom: 0;
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
+  --grid-2columns2rows-grid-gap-custom:0;
 }
