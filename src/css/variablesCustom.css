@@ -96,7 +96,9 @@
   --footer-default-invert-orange-background-color-custom: var(--color-tertiary);
   --footer-default-invert-svg-color-custom: var(--background-color);
   --footer-default-invert-svg-color-hover-custom: var(--color-tertiary);
+  --footer-default-justify-content-custom:space-between;
   --footer-default-line-height:1.4em;
+  --footer-default-order-custom:1;
   --footer-links-row-margin: calc(var(--content-spacing-mobile, 0) / 2) 0;
   --grid-2columns2rows-grid-gap-custom:0;
   --grid-2columns2rows-padding-custom:calc(var(--content-spacing) * 2) calc(var(--content-spacing) * 4);

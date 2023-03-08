@@ -1,5 +1,4 @@
 <o-footer namespace="footer-default-">
-    
     <div class="invert">
         <o-wrapper namespace="footer-default-" class="font-size-tiny-desktop">
             <div class=footer-links-row>
@@ -55,11 +54,17 @@
             :host .invert.orange {
                 --footer-default-invert-background-color: var(--footer-default-invert-orange-background-color-custom, var(--color-secondary));
             }
+           
         </style>
         <div class="footer-links font-size-tiny-desktop">
+            <style>
+                 :host ul {
+                    align-items: center;
+                }
+            </style>
             <ul>
-                <li>
-                    © 2022 Genossenschaft Migros Genf
+                <li style="padding: 0;">
+                    <a-picture defaultSource="../../../../img/nature_logo_footer.png" alt="randomized image"></a-picture>
                 </li>
                 <li>© 2022 Genossenschaft Migros Zürich</li>
             </ul>
