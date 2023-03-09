@@ -102,6 +102,9 @@
   --footer-links-row-margin: calc(var(--content-spacing-mobile, 0) / 2) 0;
   --grid-2columns2rows-grid-gap-custom:0;
   --grid-2columns2rows-padding-custom:calc(var(--content-spacing) * 2) calc(var(--content-spacing) * 4);
+  --grid-2colums2rows-big-li-before-font-size: var(--font-size);
+  --grid-2colums2rows-big-li-before-top: 0;
+  --grid-2colums2rows-color-secondary: var(--color-tertiary);
   --h-color: var(--color-tertiary);
   --h-line-height: 1.5em;
   --h-margin-bottom: 0;
