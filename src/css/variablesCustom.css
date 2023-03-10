@@ -126,8 +126,8 @@
   --header-default-width-mobile: 100%;
   --hr-border-bottom: 2px dotted var(--m-gray-600);
   --hr-border-width: 0 0 2px;
-  --hr-secondary-border-bottom: 2px solid var(--color-secondary);
-  --hr-secondary-opacity: 1;
+  --hr-secondary-border-bottom: 2px solid var(--background-color);
+  --hr-secondary-opacity: .8;
   --logo-default-img-margin-mobile: 0;
   --logo-default-img-margin: 1.2em 0 0 0;
   --nature-wrapper-align-items: stretch;
@@ -155,4 +155,7 @@
   --teaser-overlay-bg-padding-bottom: 0;
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
+  --grid-2colums2rows-h3-font-size:1em;
+
+  --grid-2colums2rows-h3-margin:0 0 var(--content-spacing) 0;
 }
