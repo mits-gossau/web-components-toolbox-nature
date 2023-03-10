@@ -89,7 +89,7 @@
   --footer-default-h4-color: var(--color-tertiary);
   --footer-default-h4-font-size:1.2em;
   --footer-default-h4-line-height:1.4em;
-  --footer-default-h4-padding: 0 0 calc(var(--content-spacing)/2) 0;
+  --footer-default-h4-padding: 0 0 calc(var(--content-spacing)) 0;
   --footer-default-invert-a-color-hover-custom: var(--color-tertiary);
   --footer-default-invert-color-hover-custom: var(--color-tertiary);
   --footer-default-invert-orange-a-color-hover-custom: var(--color-hover);
@@ -105,6 +105,8 @@
   --grid-2colums2rows-big-li-before-font-size: var(--font-size);
   --grid-2colums2rows-big-li-before-top: 0;
   --grid-2colums2rows-color-secondary: var(--color-tertiary);
+  --grid-2colums2rows-h3-font-size:1em;
+  --grid-2colums2rows-h3-margin:0 0 var(--content-spacing) 0;
   --h-color: var(--color-tertiary);
   --h-line-height: 1.5em;
   --h-margin-bottom: 0;
@@ -155,7 +157,4 @@
   --teaser-overlay-bg-padding-bottom: 0;
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
-  --grid-2colums2rows-h3-font-size:1em;
-
-  --grid-2colums2rows-h3-margin:0 0 var(--content-spacing) 0;
 }
