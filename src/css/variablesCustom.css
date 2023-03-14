@@ -70,6 +70,8 @@
   --color-hover: #F26178;
   --color-secondary: #82C073;
   --color-tertiary: #003B4C;
+  --navigation-nature-color-active-custom:#7FC56E;
+  --navigation-nature-border-color-custom:#DDDDDD;
   --content-spacing-mobile: 2rem;
   --content-width: min(calc(1200px - var(--content-spacing) * 2), calc(100% - var(--content-spacing) * 2));
   --details-default-summary-child-margin: 0.4em 0 0;
@@ -102,6 +104,7 @@
   --footer-links-row-margin: calc(var(--content-spacing-mobile, 0) / 2) 0;
   --grid-2columns2rows-grid-gap-custom:0;
   --grid-2columns2rows-padding-custom:calc(var(--content-spacing) * 2) calc(var(--content-spacing) * 4);
+  --grid-2columns2rows-padding-mobile-custom:calc(var(--content-spacing-mobile)) calc(var(--content-spacing-mobile));
   --grid-2colums2rows-big-li-before-font-size: var(--font-size);
   --grid-2colums2rows-big-li-before-top: 0;
   --grid-2colums2rows-color-secondary: var(--color-tertiary);
@@ -111,9 +114,10 @@
   --h-line-height: 1.5em;
   --h-margin-bottom: 0;
   --h-padding: 0.3em 0 0;
-  --h1-font-size-mobile: 1.75em;
-  --h1-font-size: calc(2.5 * 1.75em);
+  --h1-font-size-mobile: 2em;
+  --h1-font-size: calc(2.5 * 1.5em);
   --h2-font-family: var(--font-family-secondary);
+  --h3-font-size-mobile: 1.4em;
   --h3-font-size:1.4em;
   --h3-text-transform: uppercase;
   --h6-font-size: var(--h2-font-size, 1.5em);
@@ -136,25 +140,11 @@
   --nature-wrapper-gap-custom: 0;
   --nature-wrapper-padding-mobile: var(--content-spacing-mobile);
   --nature-wrapper-padding: calc(var(--content-spacing) * 2) calc(var(--content-spacing) * 4);
-  --navigation-alnatura-content-width-custom: var(--navigation-default-content-width-custom);
-  --navigation-alnatura-search-li-padding-custom: var(--navigation-default-search-li-padding-custom);
-  --navigation-alnatura-section-margin-top-desktop: var(--navigation-default-section-margin-top-desktop);
-  --navigation-alnatura-ul-li-div-background-left: var(--navigation-default-ul-li-div-background-left);
-  --navigation-alnatura-ul-li-div-background-width: var(--navigation-default-ul-li-div-background-width);
-  --navigation-alnatura-ul-li-width-mobile: var(--navigation-default-ul-li-width-mobile);
-  --navigation-alnatura-ul-li-width-search-mobile: var(--navigation-default-ul-li-width-search-mobile);
-  --navigation-default-align-items:baseline;
-  --navigation-default-content-width-custom: calc(var(--content-width, 55%) - var(--content-spacing) * 2);
-  --navigation-default-search-li-padding-custom: calc(0.25rem - 1px) 0 0.25rem var(--content-spacing-mobile);
-  --navigation-default-section-margin-top-desktop: 0px;
-  --navigation-default-ul-li-div-background-left: calc((100vw - var(--content-width, 55%)) / 2);
-  --navigation-default-ul-li-div-background-width: var(--content-width, 55%);
-  --navigation-default-ul-li-width-mobile: calc(100% - var(--content-spacing-mobile));
-  --navigation-default-ul-li-width-search-mobile: 100%;
   --p-font-size:1.4em;
   --picture-close-btn-background-color: var(--color-secondary);
   --search-input-width-big: 100%;
   --teaser-overlay-bg-padding-bottom: 0;
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
+  --font-size-mobile: min(16px, 5vw)
 }
