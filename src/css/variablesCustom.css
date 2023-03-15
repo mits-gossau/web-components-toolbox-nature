@@ -57,6 +57,7 @@
 }
 
 :root {
+  --a-link-content-spacing-no-scroll-custom: 0 var(--nature-wrapper-padding-mobile);
   --any-content-spacing-mobile: 0;
   --any-content-spacing: 0;
   --any-content-width-mobile: 100%;
@@ -70,8 +71,6 @@
   --color-hover: #F26178;
   --color-secondary: #82C073;
   --color-tertiary: #003B4C;
-  --navigation-nature-color-active-custom:#7FC56E;
-  --navigation-nature-border-color-custom:#DDDDDD;
   --content-spacing-mobile: 2rem;
   --content-width: min(calc(1200px - var(--content-spacing) * 2), calc(100% - var(--content-spacing) * 2));
   --details-default-summary-child-margin: 0.4em 0 0;
@@ -81,6 +80,7 @@
   --font-family-bold: TrendaBold, HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: GlossAndBloom, sans-serif;
   --font-family: TrendaSemiBold, HelveticaNowText, Helvetica, Arial, sans-serif;
+  --font-size-mobile: min(16px, 5vw);
   --footer-default-a-font-size:1em;
   --footer-default-a-text-decoration:none;
   --footer-default-boarder-right: 0;
@@ -140,11 +140,13 @@
   --nature-wrapper-gap-custom: 0;
   --nature-wrapper-padding-mobile: var(--content-spacing-mobile);
   --nature-wrapper-padding: calc(var(--content-spacing) * 2) calc(var(--content-spacing) * 4);
+  --navigation-nature-border-color-custom:#DDDDDD;
+  --navigation-nature-color-active-custom:#7FC56E;
+  --navigation-nature-padding-mobile-first-child-custom:0;
   --p-font-size:1.4em;
   --picture-close-btn-background-color: var(--color-secondary);
   --search-input-width-big: 100%;
   --teaser-overlay-bg-padding-bottom: 0;
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
-  --font-size-mobile: min(16px, 5vw)
 }
