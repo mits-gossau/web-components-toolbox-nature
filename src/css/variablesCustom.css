@@ -81,7 +81,7 @@
   --font-family-secondary: GlossAndBloom, sans-serif;
   --font-family: TrendaSemiBold, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-size-mobile: min(16px, 5vw);
-  --footer-default-a-font-size:1em;
+  --footer-default-a-font-size:var(--font-size-mobile);
   --footer-default-a-text-decoration:none;
   --footer-default-boarder-right: 0;
   --footer-default-footer-any-padding-mobile: 0;
@@ -107,7 +107,6 @@
   --grid-2colums2rows-big-li-before-font-size: var(--font-size);
   --grid-2colums2rows-big-li-before-top: 0;
   --grid-2colums2rows-color-secondary: var(--color-tertiary);
-  --grid-2colums2rows-h3-font-size:1em;
   --grid-2colums2rows-h3-margin:0 0 var(--content-spacing) 0;
   --h-color: var(--color-tertiary);
   --h-line-height: 1.5em;
