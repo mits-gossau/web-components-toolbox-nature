@@ -142,6 +142,7 @@
   --navigation-nature-padding-mobile-first-child-custom: 0;
   --p-font-size-mobile: 1em;
   --p-font-size: 1.4em;
+  --p-margin: 0;
   --picture-close-btn-background-color: var(--color-secondary);
   --picture-img-max-height: 100%;
   --search-input-width-big: 100%;
