@@ -141,14 +141,17 @@
   --navigation-nature-border-color-custom: #DDDDDD;
   --navigation-nature-color-active-custom: #7FC56E;
   --navigation-nature-padding-mobile-first-child-custom: 0;
-  --p-font-size-mobile: 1em;
-  --p-font-size: 1.4em;
   --p-margin: 0;
   --picture-close-btn-background-color: var(--color-secondary);
   --picture-img-max-height: 100%;
   --search-input-width-big: 100%;
-  --table-white-space: nowrap;
+  --table-td-align-right-white-space-first-child: nowrap;
   --teaser-overlay-bg-padding-bottom: 0;
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
+  /* @Dino: Sandra want's this font-size smaller equal to the original site */
+  /*
+  --p-font-size-mobile: 1em;
+  --p-font-size: 1.4em;
+  */
 }
