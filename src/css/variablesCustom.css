@@ -147,6 +147,7 @@
   --picture-close-btn-background-color: var(--color-secondary);
   --picture-img-max-height: 100%;
   --search-input-width-big: 100%;
+  --table-white-space: nowrap;
   --teaser-overlay-bg-padding-bottom: 0;
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
