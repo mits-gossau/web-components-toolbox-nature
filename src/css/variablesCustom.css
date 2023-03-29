@@ -115,6 +115,7 @@
   --h1-font-size-mobile: 2em;
   --h1-font-size: calc(2.5 * 1.5em);
   --h2-font-family: var(--font-family-secondary);
+  --h2-padding: 0 0 0.5em 0;
   --h3-font-size-mobile: 1.4em;
   --h3-font-size: 1.4em;
   --h6-font-size: var(--h2-font-size, 1.5em);
@@ -142,10 +143,15 @@
   --navigation-nature-padding-mobile-first-child-custom: 0;
   --p-font-size-mobile: 1em;
   --p-font-size: 1.4em;
+  --p-margin: 0;
   --picture-close-btn-background-color: var(--color-secondary);
   --picture-img-max-height: 100%;
   --search-input-width-big: 100%;
   --teaser-overlay-bg-padding-bottom: 0;
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
+}
+
+table.ingredients td[align="right"]{
+  white-space: nowrap;
 }
