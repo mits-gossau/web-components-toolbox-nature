@@ -75,8 +75,6 @@
   --content-width: min(calc(1200px - var(--content-spacing) * 2), calc(100% - var(--content-spacing) * 2));
   --details-default-summary-child-margin: 0.4em 0 0;
   --details-default-summary-dropdown-icon-margin: 0;
-  --emotion-default-width-mobile: 100%;
-  --emotion-default-width: var(--content-width);
   --font-family-bold: TrendaBold, HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: GlossAndBloom, sans-serif;
   --font-family: TrendaSemiBold, HelveticaNowText, Helvetica, Arial, sans-serif;
