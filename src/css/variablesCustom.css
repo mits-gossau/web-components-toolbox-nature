@@ -151,7 +151,3 @@
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
 }
-
-table.ingredients td[align="right"]{
-  white-space: nowrap;
-}
