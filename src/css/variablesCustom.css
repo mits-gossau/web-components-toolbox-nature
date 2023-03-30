@@ -75,8 +75,6 @@
   --content-width: min(calc(1200px - var(--content-spacing) * 2), calc(100% - var(--content-spacing) * 2));
   --details-default-summary-child-margin: 0.4em 0 0;
   --details-default-summary-dropdown-icon-margin: 0;
-  --emotion-default-width-mobile: 100%;
-  --emotion-default-width: var(--content-width);
   --font-family-bold: TrendaBold, HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: GlossAndBloom, sans-serif;
   --font-family: TrendaSemiBold, HelveticaNowText, Helvetica, Arial, sans-serif;
@@ -115,7 +113,7 @@
   --h1-font-size-mobile: 2em;
   --h1-font-size: calc(2.5 * 1.5em);
   --h2-font-family: var(--font-family-secondary);
-  --h2-padding: 0 0 0.5em 0;
+  --h2-padding: 0.3em 0 0.5em 0;
   --h3-font-size-mobile: 1.4em;
   --h3-font-size: 1.4em;
   --h6-font-size: var(--h2-font-size, 1.5em);
@@ -141,17 +139,17 @@
   --navigation-nature-border-color-custom: #DDDDDD;
   --navigation-nature-color-active-custom: #7FC56E;
   --navigation-nature-padding-mobile-first-child-custom: 0;
-  --p-font-size-mobile: 1em;
-  --p-font-size: 1.4em;
   --p-margin: 0;
   --picture-close-btn-background-color: var(--color-secondary);
   --picture-img-max-height: 100%;
   --search-input-width-big: 100%;
+  --table-td-align-right-white-space-first-child: nowrap;
   --teaser-overlay-bg-padding-bottom: 0;
   --teaser-overlay-bg-padding-top-custom: 0.6em;
   --title-border-display: none;
-}
-
-table.ingredients td[align="right"]{
-  white-space: nowrap;
+  /* @Dino: Sandra want's this font-size smaller equal to the original site */
+  /*
+  --p-font-size-mobile: 1em;
+  --p-font-size: 1.4em;
+  */
 }
