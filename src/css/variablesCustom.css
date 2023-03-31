@@ -66,10 +66,10 @@
   --background-color: white;
   --bg-padding-bottom: 0.2em;
   --bg-padding-top: 0.5em;
-  --color-active: var(--m-gray-600);
+  --color-active: var(--color-secondary);
   --color-disabled: var(--m-gray-600);
-  --color-hover: #F26178;
-  --color-secondary: #82C073;
+  --color-hover: #328433;
+  --color-secondary: #7FC56E;
   --color-tertiary: #003B4C;
   --content-spacing-mobile: 2rem;
   --content-width: min(calc(1200px - var(--content-spacing) * 2), calc(100% - var(--content-spacing) * 2));
@@ -137,7 +137,6 @@
   --nature-wrapper-padding-mobile: var(--content-spacing-mobile);
   --nature-wrapper-padding: calc(var(--content-spacing) * 2) calc(var(--content-spacing) * 4);
   --navigation-nature-border-color-custom: #DDDDDD;
-  --navigation-nature-color-active-custom: #7FC56E;
   --navigation-nature-padding-mobile-first-child-custom: 0;
   --p-margin: 0;
   --picture-close-btn-background-color: var(--color-secondary);
