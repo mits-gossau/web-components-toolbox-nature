@@ -71,7 +71,8 @@
   --color-disabled: var(--m-gray-600);
   --color-hover: #328433;
   --color-secondary: #7FC56E;
-  --color-tertiary: #003B4C;
+  --color-tertiary:var(--color);
+  --color:#003B4C;
   --content-spacing-mobile: 2rem;
   --content-width: min(calc(1200px - var(--content-spacing) * 2), calc(100% - var(--content-spacing) * 2));
   --details-default-summary-child-margin: 0.4em 0 0;
