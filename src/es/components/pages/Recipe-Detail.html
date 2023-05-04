@@ -5,7 +5,8 @@
     </a-emotion-pictures>
     <o-grid namespace="grid-2colums2rows-" first-container-vertical first-column-with="30%">
         <section>
-            <div style="background-color: #D48A42; color: var(--background-color); ">
+
+            <o-body-style only-render-attribute-to-css background-color-prop="#D48A42" color-prop="var(--background-color)" padding-prop="var(--content-spacing)" padding-prop-mobile="var(--content-spacing-mobile)">
                 <style>
                     :host {
                         --table-vertical-align: middle;
@@ -17,6 +18,10 @@
                         --table-border-collapse: separate;
                         --table-border-spacing: 0.5em;
                         --table-margin: 0;
+                        --h3-font-size: 1em;
+                        --h3-font-size-mobile: 1em;
+                        --h-margin-bottom: 0.4em;
+                        --h-color: var(--background-color);
                     }
                 
                     :host .ingredients {
@@ -27,6 +32,11 @@
                         --table-margin: 0;
                     }
                 </style>
+
+                <o-body-style only-render-attribute-to-css display="none" display-mobile="block">
+                    <h2 class="font-size-h1">Wellington champignons (H2)</h2>
+                </o-body-style>
+
                 <table>
                     <tr>
                         <td>
@@ -57,9 +67,7 @@
 
                 <div class="spacer-one"></div>
 
-                <o-body-style only-render-attribute-to-css h-color-var="var(--background-color)" h-margin-bottom-var="0.4em" h3-font-size-var="1em">
-                    <h3>Croûte</h3>
-                </o-body-style>
+                <h3>Croûte</h3>
 
                 <table class="ingredients">
                     <tbody>
@@ -112,9 +120,7 @@
 
                 <div class="spacer-one"></div>
 
-                <o-body-style only-render-attribute-to-css h-color-var="var(--background-color)" h-margin-bottom-var="0.4em" h3-font-size-var="1em">
-                    <h3>Farce</h3>
-                </o-body-style>
+                <h3>Farce</h3>
 
                 <table class="ingredients">
                     <tbody>
@@ -164,53 +170,56 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
-            <o-body-style only-render-attribute-to-css background-color-prop="#EEE2D5" color-var"var(--color-tertiary)" padding-prop="var(--content-spacing)" padding-prop-mobile="var(--content-spacing-mobile)">
-            <div style="background-color: #EEE2D5; color: var(--color-tertiary);">
-                <h2 class="font-size-h1">Wellington champignons (H2)</h2>
-                <o-body-style only-render-attribute-to-css display-mobile="none">
-                <h3>Titel (H3)</h3>
-                </o-body-style>
+            </o-body-style>
+
+            <o-body-style only-render-attribute-to-css background-color-prop="#EEE2D5" color-prop="var(--color-tertiary)" padding-prop="var(--content-spacing)" padding-prop-mobile="var(--content-spacing-mobile)">
                 <div>
-                    <ol class="big">
-                        <li>Dans un bol, mélangez tous les ingrédients de la croûte. Pétrissez jusqu’à ce qu’une pâte lisse
-                            se
-                            forme. Aplatissez
-                            ensuite la pâte en un disque épais, couvrez-la et réfrigérez-la pendant 20 min.
-                        </li>
-                        <li>
-                            t que vous étalez la croûte. Préchauffez le four à 200°C. Commencez par étaler uniformément la
-                            pâte
-                            sur une surface
-                            farinée. Placez la farce au milieu et modelez-la en forme de bûche aux côtés arrondis. Une fois
-                            la
-                            farc
-                            e en place, faites une série d’incisions d’environ 2 cm dans la pâte des deux côtés de la farce,
-                            en
-                            légère diagonale.
-                            Repliez les deux rabats, en haut et en bas, comme si vous emballiez un cadeau, puis tressez les
-                            bandes de pâte sur le
-                            dessus de la farce, en alternant les côtés. Enfournez pendant
-                            min ou jusqu’à ce que la croûte soit bien dorée. Brossez le Wellington avec un mélange égal
-                            d’huile
-                            d’olive et de sirop
-                            d’érable pour un rendu brillant. Coupez la partie haute des têtes d’ail en y ajoutant un filet
-                            d’huile d’olive et les
-                            enveloppez dans du papier aluminium. Mettez-les au four penda
-                            nt 40 minutes.
-                        </li>
-                        <li>
-                            Coupez les oignons en lamelles ou en brunoise, puis faites-les revenir dans une poêle avec de
-                            l’huile
-                            d’olive. Ajoutez le sirop d’érable, le bâton de cannelle et
-                            l’anis étoilé. Couvrez la poêle avec son couvercle et laissez doucement caraméliser les oignons.
-                            Salez avec environ 2
-                            grosses pincées de sel. Pressez le jus de manda
-                        </li>
-                    </ol>
-                    <p>asdjkf asldjf</p>
+                    <o-body-style only-render-attribute-to-css display-mobile="none">
+                        <h2 class="font-size-h1">Wellington champignons (H2)</h2>
+                    </o-body-style>
+
+                    <h3>Titel (H3)</h3>
+                    
+                    <div>
+                        <ol class="big">
+                            <li>Dans un bol, mélangez tous les ingrédients de la croûte. Pétrissez jusqu’à ce qu’une pâte lisse
+                                se
+                                forme. Aplatissez
+                                ensuite la pâte en un disque épais, couvrez-la et réfrigérez-la pendant 20 min.
+                            </li>
+                            <li>
+                                t que vous étalez la croûte. Préchauffez le four à 200°C. Commencez par étaler uniformément la
+                                pâte
+                                sur une surface
+                                farinée. Placez la farce au milieu et modelez-la en forme de bûche aux côtés arrondis. Une fois
+                                la
+                                farc
+                                e en place, faites une série d’incisions d’environ 2 cm dans la pâte des deux côtés de la farce,
+                                en
+                                légère diagonale.
+                                Repliez les deux rabats, en haut et en bas, comme si vous emballiez un cadeau, puis tressez les
+                                bandes de pâte sur le
+                                dessus de la farce, en alternant les côtés. Enfournez pendant
+                                min ou jusqu’à ce que la croûte soit bien dorée. Brossez le Wellington avec un mélange égal
+                                d’huile
+                                d’olive et de sirop
+                                d’érable pour un rendu brillant. Coupez la partie haute des têtes d’ail en y ajoutant un filet
+                                d’huile d’olive et les
+                                enveloppez dans du papier aluminium. Mettez-les au four penda
+                                nt 40 minutes.
+                            </li>
+                            <li>
+                                Coupez les oignons en lamelles ou en brunoise, puis faites-les revenir dans une poêle avec de
+                                l’huile
+                                d’olive. Ajoutez le sirop d’érable, le bâton de cannelle et
+                                l’anis étoilé. Couvrez la poêle avec son couvercle et laissez doucement caraméliser les oignons.
+                                Salez avec environ 2
+                                grosses pincées de sel. Pressez le jus de manda
+                            </li>
+                        </ol>
+                        <p>asdjkf asldjf</p>
+                    </div>
                 </div>
-            </div>
             </o-body-style>
         </section>
     </o-grid>
