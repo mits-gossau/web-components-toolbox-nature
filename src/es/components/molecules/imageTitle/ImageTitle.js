@@ -52,14 +52,14 @@ export default class ImageTitle extends Shadow() {
       }
       @media only screen and (max-width: _max-width_) {
         :host {
-          grid-template-columns: unset;
+          grid-template-columns: auto;
         }
         :host > div {
           padding: var(--padding-mobile, var(--content-spacing-mobile));
         }
         :host a-emotion-pictures {
           grid-row: 2;
-          grid-column-end: 1;
+          grid-column-end: auto;
         }
       }
     `
