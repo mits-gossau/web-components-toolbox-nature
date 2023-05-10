@@ -52,7 +52,7 @@ export default class ImageTitle extends Shadow() {
       }
       @media only screen and (max-width: _max-width_) {
         :host {
-          grid-template-columns: auto;
+          grid-template-columns: 1fr;
         }
         :host > div {
           padding: var(--padding-mobile, var(--content-spacing-mobile));
