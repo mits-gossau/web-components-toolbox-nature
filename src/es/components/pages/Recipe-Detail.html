@@ -5,7 +5,6 @@
     </a-emotion-pictures>
     <o-grid namespace="grid-2colums2rows-" first-container-vertical first-column-with="30%">
         <section>
-
             <o-body-style only-render-attribute-to-css background-color-prop="#D48A42" color-prop="var(--background-color)" padding-prop="var(--content-spacing)" padding-prop-mobile="var(--content-spacing-mobile)">
                 <style>
                     :host {
@@ -21,6 +20,7 @@
                         --h3-font-size: 1em;
                         --h3-font-size-mobile: 1em;
                         --h-margin-bottom: 0.4em;
+                        --h3-margin: 0 0 1.143em;
                         --h-color: var(--background-color);
                     }
                 
@@ -28,8 +28,12 @@
                         --table-vertical-align: top;
                         --table-margin: 0;
                         --table-border-collapse: separate;
-                        --table-border-spacing: 0 ;
+                        --table-border-spacing: 0;
                         --table-margin: 0;
+                    }
+
+                    :host h3 {
+                        --h3-margin-bottom: 1.143em;
                     }
                 </style>
 
@@ -173,12 +177,19 @@
             </o-body-style>
 
             <o-body-style only-render-attribute-to-css background-color-prop="#EEE2D5" color-prop="var(--color-tertiary)" padding-prop="var(--content-spacing)" padding-prop-mobile="var(--content-spacing-mobile)">
+                <style>
+                    :host {
+                        --h-margin-bottom: 1em;
+                    }
+                </style>
                 <div>
                     <o-body-style only-render-attribute-to-css display-mobile="none">
                         <h2 class="font-size-h1">Wellington champignons (H2)</h2>
                     </o-body-style>
 
-                    <h3>Titel (H3)</h3>
+                    <o-body-style only-render-attribute-to-css margin-bottom-prop="var(--h-margin-bottom)">
+                        <h3>Titel (H3)</h3>
+                    </o-body-style>
                     
                     <div>
                         <ol class="big">
